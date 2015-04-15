@@ -1,0 +1,15 @@
+*** xdr_float.c.orig	2010-05-25 15:54:04.000000000 +0100
+--- xdr_float.c	2010-05-25 15:54:20.000000000 +0100
+***************
+*** 46,55 ****
+  #include <rpc/types.h>
+  #include <rpc/xdr.h>
+  
+- #if defined(__CYGWIN32__) || defined(__MINGW32__)
+- #define vax
+- #endif
+- 
+  /*
+   * NB: Not portable.
+   * This routine works on Suns (Sky / 68000's) and Vaxen.
+--- 46,51 ----
